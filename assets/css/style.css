@@ -1,0 +1,126 @@
+/* GLOBAL */
+
+* {
+  box-sizing: content-box;
+}
+
+.container {
+  max-width: 1135px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ------------- HEADER ------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+header {
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  border-bottom: 1px solid #e0e0e0;
+  top: 0px;
+  background-color: white;
+  font-family: TS-Reg, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#logo {
+  width: 190px;
+}
+
+#navigation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigation-header > :not(:last-child) {
+  margin-right: 10px;
+}
+
+#navigation-header div {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-radius: 30px;
+}
+
+#navigation-header i {
+  margin-right: 4px;
+}
+
+#navigation-header a {
+  text-decoration: none;
+  color: black;
+}
+
+#navigation-header button {
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 5px;
+  width: 150px;
+  height: 40px;
+  font-family: TS-Reg, sans-serif;
+  font-size: 16px;
+  line-height: 13.3px;
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ------------- RESPONSIVE --------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+/* FIRST BREAKPOINT  */
+
+@media (max-width: 1184px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: lightyellow;
+  }
+}
+
+/* SECOND BREAKPOINT */
+
+@media (max-width: 1024px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: lightcyan;
+  }
+}
+
+/* THIRD BREAKPOINT */
+
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: lightgreen;
+  }
+}
