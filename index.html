@@ -13,26 +13,33 @@
     ></script>
   </head>
   <body>
+    <!-- --------------HEADER-------------- -->
+
     <header>
       <div class="container">
+        <div class="nav-to-appear"><i class="fa-solid fa-bars"></i></div>
         <a href="https:///www.tripadvisor.fr/" target="_blank"
           ><img id="logo" src="/assets/imgs/Tripadvisor_logo.svg"
         /></a>
+
         <nav id="navigation-header">
-          <div>
+          <div class="nav-to-disappear">
             <a href="#"><i class="fa-solid fa-pen"></i><span>Avis</span></a>
           </div>
-          <div>
+          <div class="nav-to-disappear">
             <a href="#"
               ><i class="fa-regular fa-heart"></i><span>Voyages</span></a
             >
           </div>
-          <div>
+          <div class="nav-to-disappear">
             <a href="#"
               ><i class="fa-regular fa-bell"></i><span>Alertes</span></a
             >
           </div>
           <button href="#">Connectez-vous</button>
+          <div class="nav-to-appear">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
           <div>
             <a href="#"
               ><i class="fa-solid fa-cart-shopping"></i><span>Panier</span></a
@@ -41,7 +48,49 @@
         </nav>
       </div>
     </header>
-    <main></main>
+
+    <!-------------------- MAIN------------>
+
+    <main class="container">
+      <h1><span>Explorez</span> Tokyo</h1>
+      <p>
+        Les revenus influencent le choix des expériences présentées sur cette
+        page : <a href="#">en savoir plus.</a>
+      </p>
+      <!-- NAVIGATION MENU -->
+      <div id="navigation-menu">
+        <nav>
+          <div><span>Hôtels</span><i class="fa-solid fa-bed"></i></div>
+          <div>
+            <span>Location de vacances</span><i class="fa-solid fa-key"></i>
+          </div>
+          <div><span>Activités</span><i class="fa-solid fa-ticket"></i></div>
+          <div>
+            <span>Restaurants</span><i class="fa-solid fa-utensils"></i>
+          </div>
+          <div>
+            <span>Forums de voyage</span><i class="fa-regular fa-comments"></i>
+          </div>
+          <div class="menu-to-appear">
+            <span>Vols</span><i class="fa-solid fa-plane"></i>
+          </div>
+          <div class="menu-to-appear">
+            <span>Croisières</span><i class="fa-solid fa-ship"></i>
+          </div>
+          <div><span>Plus</span><i class="fa-solid fa-ellipsis"></i></div>
+        </nav>
+      </div>
+      <!-- PICTURES -->
+      <div class="pictures">
+        <div class="left-bloc"><img src="./assets/imgs/tokyo1.jpeg" /></div>
+        <div></div>
+        <div class="right-bloc">
+          <img src="./assets/imgs/tokyo2.jpeg" /><img
+            src="./assets/imgs/tokyo3.jpeg"
+          />
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
