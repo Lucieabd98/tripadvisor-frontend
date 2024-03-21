@@ -328,6 +328,7 @@ main p > a {
 
 .section1 > div {
   display: flex;
+  margin-bottom: 60px;
 }
 
 .section1 .column-1 {
@@ -368,6 +369,7 @@ main p > a {
 
 .carousel-divert img {
   width: 256px;
+  border-radius: 5px;
 }
 
 .carousel-divert h5 {
